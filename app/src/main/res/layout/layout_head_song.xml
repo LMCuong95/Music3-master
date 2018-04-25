@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#EEEEEE"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <RelativeLayout
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/hinh_casy"
+            android:background="@drawable/anhtho"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/linnear_name"
+            android:layout_toRightOf="@id/hinh_casy"
+           android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="180dp">
+            <TextView
+                android:textColor="#181717"
+                android:textSize="18sp"
+                android:id="@+id/tencasy"
+                android:text="Ten ca sy"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#282826"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"
+                android:id="@+id/tenbaihat"
+                android:text="Ten album"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/danhsach"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_queue_dark"
+            android:layout_toRightOf="@id/linnear_name"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <ImageView
+            android:id="@+id/popup_song"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_menu_moreoverflow_large_normal"
+            android:layout_toRightOf="@id/danhsach"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

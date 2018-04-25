@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhth"
+    tools:context="com.bkav.demo.music.DetailSongRuningActivity">
+
+    <include
+
+        layout="@layout/layout_head_song" />
+
+
+    <include layout="@layout/layout_repeat" />
+
+    <include
+        android:id="@+id/includebottom"
+        layout="@layout/layout_bottom_go" />
+
+
+</FrameLayout>

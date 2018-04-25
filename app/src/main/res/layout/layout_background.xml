@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:id="@+id/linear_move_song"
+        android:layout_marginBottom="0dp"
+        android:gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="#fff">
+
+        <ImageView
+            android:layout_margin="2dp"
+            android:id="@+id/hinh_album"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/anhtho" />
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:textColor="#181717"
+                android:id="@+id/click_tenbaihat"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Ten bai hat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:textColor="#282826"
+                android:layout_marginTop="5dp"
+                android:id="@+id/click_casy"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Ten ca sy"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/click_start"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_play_black" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
